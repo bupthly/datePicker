@@ -1,0 +1,44 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+.datePicker {
+	position: relative;
+	padding: 20px;
+}
+.datePicker .table {
+	width: 210px;
+	border: 1px solid #000;
+	text-align: center;
+}
+.table .cap {
+	border-bottom: 1px solid #000;
+	height: 25px;
+	line-height: 25px;
+}
+.table .tbody {
+	margin-top: 5px;
+}
+.tbody .row {
+	border-top: 1px solid #000;
+	vertical-align: middle;
+}
+.row .cell {
+	display: inline-block;
+	width: 30px;
+	height: 25px;
+	line-height: 25px;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border-right: 1px solid #000;
+}
+.row .cell:hover, .row .active {
+	background: #08f;
+	color: #fff;
+	cursor: pointer;
+}
+
+.row .cell:last-child {
+	border-right: none;
+}
